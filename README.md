@@ -1,6 +1,7 @@
 # firstdemo
 
 > vue
+>Author : caigongda
 
 ## Build Setup
 
