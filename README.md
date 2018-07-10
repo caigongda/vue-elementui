@@ -1,6 +1,8 @@
-# firstdemo
+# vue-element ui
 
-> vue
+>结合vue-cli使用element-ui
+
+> 技术栈：vue-cli vue-router element ui
 
 >Author : caigongda
 
