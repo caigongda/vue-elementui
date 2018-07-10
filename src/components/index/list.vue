@@ -24,7 +24,7 @@
 			    	<caritem heightinfo="250px"></caritem>
 			    </el-tab-pane>
 			    <el-tab-pane label="标签页" name="second">
-			    	<el-collapse accordion v-for="item in infos">
+			    	<el-collapse accordion v-for="(item,index) in infos" :key="index">
 					  <el-collapse-item :title="item.title">
 					    <div>{{item.info1}}</div>
 					    <div>{{item.info2}}</div>

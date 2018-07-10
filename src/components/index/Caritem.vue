@@ -1,7 +1,7 @@
 <template>
 	<div class="block">
 	<el-carousel :height="heightinfo">
-	  <el-carousel-item v-for="item in items">
+	  <el-carousel-item v-for="(item,index) in items" :key="index">
 	   	<img v-bind:src="item.img" style="height:100%;width:100%;">
 	  </el-carousel-item>
 	</el-carousel>
